@@ -9,7 +9,6 @@ from sklearn.decomposition import PCA
 
 
 
-a = ['s', 's', 's', 't', 't']
 bdata = [None] * 21
 with open('../Data_Clustering/Autism-Screening-Child-Data Plus Description/Autism-Child-Data.arff', 'r') as file:
 	for line in file:
